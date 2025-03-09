@@ -10,6 +10,3 @@ A distinguishing feature of Edu-Quest is its implementation of decentralized cre
 Currently, the project’s repository focuses on establishing the core AI/ML functionalities and API infrastructure, which is designed to be integrated seamlessly with future frontend and expanded backend modules. The ongoing development efforts will soon bring a comprehensive user interface and additional features such as enhanced user management, detailed analytics, and dynamic virtual simulations that offer real-world experience through interactive labs and internship-like projects.
 
 Ultimately, Edu-Quest represents a transformative approach to education in the digital age. By merging personalized learning, engaging gamification, and secure credentialing into one cohesive ecosystem, the platform is poised to redefine how learners interact with educational content. Edu-Quest is more than just a learning tool—it is a complete educational ecosystem that empowers individuals to master new skills, achieve their professional goals, and embrace lifelong learning.
-=======
-# HackQuest--EduQuest
->>>>>>> 158c140 (Initial commit)
