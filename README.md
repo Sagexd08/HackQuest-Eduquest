@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # HackQuest--EduQuest-
 is an innovative gamified learning platform designed to transform the educational experience for students and professionals alike. In today’s rapidly evolving digital landscape, traditional learning methods often fall short in addressing diverse learner needs, which is why Edu-Quest reimagines education by combining personalization, interactive gamification, and decentralized credentialing. The platform harnesses advanced AI/ML techniques powered by the Gemini API to analyze individual learning data and craft customized educational roadmaps, ensuring every user receives tailored guidance that matches their unique skill set and interests.
 
