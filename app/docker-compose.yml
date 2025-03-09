@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  api:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: eduquest_api
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./logs:/app/logs
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_ENV=production
+      - PYTHONPATH=/app
+      - SECRET_KEY=${SECRET_KEY:-dev-key-change-in-production}
+      - DEFAULT_API_KEY=${DEFAULT_API_KEY:-your-api-key-here}
+      - ADMIN_API_KEY=${ADMIN_API_KEY:-your-admin-key-here}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/api/v1/ai/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+    networks:
+      - eduquest-net
+
+networks:
+  eduquest-net:
+    driver: bridge
+
